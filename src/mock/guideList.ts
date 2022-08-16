@@ -1,0 +1,187 @@
+// 常用导航地址
+export const guideList = [
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/react.png"),
+    title: "React 官网",
+    tags: ["前端", "React", "框架"],
+    description: "用于构建用户界面的 JavaScript 库",
+    id: "react",
+    url: "https://react.docschina.org/",
+  },
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/vue.png"),
+    title: "Vue 官网",
+    tags: ["前端", "Vue", "框架"],
+    description: "渐进式 Javascript 库",
+    id: "Vue",
+    url: "https://cn.vuejs.org/",
+  },
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/js.png"),
+    title: "算法：Javascript描述",
+    tags: ["数据结构", "js", "算法"],
+    description: "ZooTeam团队整理的js算法小册",
+    id: "alg",
+    url: "https://101.zoo.team/",
+  },
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/go.png"),
+    title: "地鼠文档",
+    tags: ["后端", "GO"],
+    description: "golang 一个go语言学习的网站",
+    id: "golang",
+    url: "https://topgoer.cn/",
+  },
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/lodash.png"),
+    title: "Lodash 中文官网",
+    tags: ["前端", "js", "工具"],
+    description: "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。",
+    id: "lodash",
+    url: "https://www.lodashjs.com/",
+  },
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/r_query.png"),
+    title: "React Query 官网",
+    tags: ["前端", "React", "第三方库"],
+    description: "在React和React Native应用程序中获取、缓存和更新数据，而不需要接触任何“全局状态”。",
+    id: "react_query",
+    url: "https://react-query-v3.tanstack.com/",
+  },
+  {
+    count: 0,
+    imgUrl: require("static/image/site-logo/webpack.png"),
+    title: "webpack 中文官网",
+    tags: ["前端", "webpack", "构建工具"],
+    description: "webpack 是一个用于现代 JavaScript 应用程序的 静态模块打包工具",
+    id: "webpack",
+    url: "https://webpack.docschina.org/",
+  },
+];
+
+// 侧边栏导航列表
+export const sideMenuList = [
+  {
+    title: "前端",
+    id: "fronted",
+  },
+  {
+    title: "后端",
+    id: "backend",
+  },
+  {
+    title: "算法",
+    id: "alg",
+  },
+  {
+    title: "Linux",
+    id: "linux",
+  },
+  {
+    title: "大数据",
+    id: "bigData",
+  },
+];
+
+// 编程语言下的导航地址 -- 前端
+export const frontedCodeSiteList = [
+  {
+    subTitle: "流行框架",
+    subId: "LXKJ",
+    siteList: [
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/react.png"),
+        title: "React 官网",
+        tags: ["前端", "React", "框架"],
+        description: "用于构建用户界面的 JavaScript 库",
+        id: "react",
+        url: "https://react.docschina.org/",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/vue.png"),
+        title: "Vue 官网",
+        tags: ["前端", "Vue", "框架"],
+        description: "渐进式 Javascript 库",
+        id: "Vue",
+        url: "https://cn.vuejs.org/",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/angular.png"),
+        title: "Angular 官网",
+        tags: ["前端", "Angular", "框架"],
+        description: "一个基于组件的框架，用于构建可伸缩的 Web 应用",
+        id: "Angular",
+        url: "https://angular.cn/",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/nodejs.svg"),
+        title: "nodeJs 官网",
+        tags: ["前端", "js", "node"],
+        description: "Node.js® 是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。",
+        id: "nodejs",
+        url: "https://nodejs.org/zh-cn/",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/umi.png"),
+        title: "UmiJs 官网",
+        tags: ["前端", "Angular", "框架"],
+        description: "Umi 以路由为基础的，同时支持配置式路由和约定式路由，保证路由的功能完备，并以此进行功能扩展。",
+        id: "umijs",
+        url: "https://umijs.org/",
+      },
+    ],
+  },
+  {
+    subTitle: "UI组件库",
+    subId: "UIZJK",
+    siteList: [
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/antdesign.svg"),
+        title: "Ant Design 官网",
+        tags: ["前端", "React", "UI库"],
+        description: "开箱即用的高质量 React UI组件库",
+        id: "antdesign",
+        url: "https://ant.design/index-cn",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/antdmobile.svg"),
+        title: "Ant Design Mobile 官网",
+        tags: ["前端", "React", "UI库"],
+        description: "探索移动端 Web 的体验极限",
+        id: "antdmobile",
+        url: "https://antd-mobile.gitee.io/zh",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/elementUI.png"),
+        title: "Element UI 中文官网",
+        tags: ["前端", "Vue", "UI库"],
+        description: "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库",
+        id: "elementUI",
+        url: "https://element.eleme.cn/#/zh-CN",
+      },
+      {
+        count: 0,
+        imgUrl: require("static/image/site-logo/vant.png"),
+        title: "Vant 中文官网",
+        tags: ["前端", "Vue", "UI库"],
+        description: "Vant，轻量、可靠的移动端 Vue 组件库",
+        id: "Vant",
+        url: "https://vant-contrib.gitee.io/vant/#/zh-CN/",
+      },
+    ],
+  },
+];

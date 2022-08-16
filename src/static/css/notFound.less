@@ -1,0 +1,49 @@
+.not-found {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  min-height: 75vh;
+  max-height: calc(100vh - 75px);
+  padding: 50px 32px 48px;
+
+  .not-found-icon {
+    width: 460px;
+    height: 460px;
+  }
+
+  .not-found-detail {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    :global {
+      h1 {
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.85);
+        font-weight: normal;
+      }
+
+      dt {
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+      }
+
+      dd {
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.5);
+
+        &:last-child {
+          margin-top: 15px;
+        }
+
+        span {
+          &:first-child {
+            margin-right: 10px;
+            color: rgba(0, 0, 0, 0.85);
+          }
+        }
+      }
+    }
+  }
+}
